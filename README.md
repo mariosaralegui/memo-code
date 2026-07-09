@@ -21,6 +21,7 @@ The algorithmic framework is built on a highly modular, Object-Oriented Programm
 
 ## 📂 Repository Structure
 
+```text
 ```exact
 ├── data/                   # Telemetry logs and GPS coordinates
 ├── src/                    # Main Python source code

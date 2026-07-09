@@ -21,19 +21,20 @@ The algorithmic framework is built on a highly modular, Object-Oriented Programm
 
 ## 📂 Repository Structure
 
-```text
+```code
 ```exact
 ├── data/                   # Telemetry logs and GPS coordinates
+├── outputs/                # Outputs from the main scripts
 ├── src/                    # Main Python source code
 │   ├── data_processing/    # EDA, generation rates, and API handlers
 │   └── exact_solvers/      # MILP & CP-SAT models for benchmarking
-├── requirements.txt        # Python dependencies
 └── main.py                 # Main execution scripts
 
 ```heuristic
 ├── data/                   # Telemetry logs and GPS coordinates
+├── outputs/                # Outputs from the main scripts
+├── maps/                   # Output examples of the maps shown in figs 5.1 to 5.6 in memo
 ├── src/                    # Main Python source code
 │   ├── data_processing/    # EDA, generation rates, and API handlers
 │   └── metaheuristics/     # GRASP, VND, and VNS algorithms
-├── requirements.txt        # Python dependencies
 └── main.py                 # Main execution scripts

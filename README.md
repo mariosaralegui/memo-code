@@ -21,7 +21,7 @@ The algorithmic framework is built on a highly modular, Object-Oriented Programm
 
 ## 📂 Repository Structure
 
-'''exact
+```exact
 ├── data/                   # Telemetry logs and GPS coordinates
 ├── src/                    # Main Python source code
 │   ├── data_processing/    # EDA, generation rates, and API handlers
@@ -29,7 +29,7 @@ The algorithmic framework is built on a highly modular, Object-Oriented Programm
 ├── requirements.txt        # Python dependencies
 └── main.py                 # Main execution scripts
 
-'''heuristic
+```heuristic
 ├── data/                   # Telemetry logs and GPS coordinates
 ├── src/                    # Main Python source code
 │   ├── data_processing/    # EDA, generation rates, and API handlers
